@@ -1,0 +1,12 @@
+{
+  "name": "nodeintro",
+  "version": "0.0.0",
+  "description": "Demo code to go along with the nodeintro presentation.",
+  "private": true,
+  "author": "Bryce B. Baril",
+  "license": "MIT",
+  "dependencies": {
+    "redis": "~0.8.6",
+    "express": "~3.4.0"
+  }
+}
