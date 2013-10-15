@@ -8,7 +8,7 @@ http.createServer(function (req, res) {
   // Either via a module such as http://npm.im/lactate or a separate
   // tool such as Nginx or Varnish
   var file = fs.createReadStream("./stream-animation.gif")
-    .pipe(res)
+  file.pipe(res)
 
 }).listen(1337, "127.0.0.1")
 console.log("Server running at http://127.0.0.1:1337/")
